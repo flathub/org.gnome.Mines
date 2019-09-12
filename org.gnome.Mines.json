@@ -1,17 +1,13 @@
 {
     "app-id": "org.gnome.Mines",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.32",
+    "runtime-version": "3.34",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-mines",
     "finish-args": [
         "--share=ipc",
         "--socket=x11",
-        "--socket=wayland",
-        "--filesystem=xdg-run/dconf",
-        "--filesystem=~/.config/dconf:ro",
-        "--talk-name=ca.desrt.dconf",
-        "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+        "--socket=wayland"
     ],
     "cleanup": [
         "/include",
@@ -27,8 +23,8 @@
                     "sources": [{
                         "type": "git",
                         "url": "https://gitlab.gnome.org/GNOME/libgnome-games-support.git",
-                        "tag": "1.4.3",
-                        "commit": "ca0aee63ba7c8537c1da170d3735ef3c95648bf0"
+                        "tag": "1.4.4-correct",
+                        "commit": "2db73333f2094fcae071028432b29cd82574c610"
                     }]
                 }
             ]
@@ -39,8 +35,8 @@
             "sources": [{
                 "type": "git",
                 "url": "https://gitlab.gnome.org/GNOME/gnome-mines.git",
-                "tag": "3.32.2",
-                "commit": "00dd13739d4821f97659584b04f7a3d6420a1aaa"
+                "tag": "3.34.0",
+                "commit": "8b578976eceae5ee397a3487104f9e380f859b24"
             }]
         }
     ]
