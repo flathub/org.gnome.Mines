@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Mines",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-mines",
     "finish-args": [
@@ -17,16 +17,16 @@
         "/share/man",
         "/share/vala"
     ],
-    "modules": [{
-            "name": "org.gnome.games-support.modules",
-            "modules": [{
-                    "name": "libgnome-games-support",
-                    "sources": [{
-                        "type": "git",
-                        "url": "https://gitlab.gnome.org/GNOME/libgnome-games-support.git",
-                        "tag": "1.4.4-correct",
-                        "commit": "2db73333f2094fcae071028432b29cd82574c610"
-                    }]
+    "modules": [
+        {
+            "name": "libgnome-games-support",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/GNOME/libgnome-games-support.git",
+                    "tag": "1.6.0.1",
+                    "commit": "0aca5d736973e69972e1dd79f55a233971fbae7e"
                 }
             ]
         },
@@ -36,8 +36,8 @@
             "sources": [{
                 "type": "git",
                 "url": "https://gitlab.gnome.org/GNOME/gnome-mines.git",
-                "tag": "3.34.0",
-                "commit": "8b578976eceae5ee397a3487104f9e380f859b24"
+                "tag": "3.36.0",
+                "commit": "a2fcc0b0e14e57c2cea41acd7fe7ee3f2a39611b"
             }]
         }
     ]
