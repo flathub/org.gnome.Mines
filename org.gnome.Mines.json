@@ -33,12 +33,18 @@
         {
             "name": "gnome-mines",
             "buildsystem": "meson",
-            "sources": [{
+            "sources": [
+                {
                 "type": "git",
                 "url": "https://gitlab.gnome.org/GNOME/gnome-mines.git",
                 "tag": "3.36.0",
                 "commit": "a2fcc0b0e14e57c2cea41acd7fe7ee3f2a39611b"
-            }]
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-appdata.xml.patch"
+                }
+            ]
         }
     ]
 }
