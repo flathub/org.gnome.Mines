@@ -1,0 +1,26 @@
+From a2fcc0b0e14e57c2cea41acd7fe7ee3f2a39611b Sat Mar 7 00:22:15 2020
+From: corecontingency <ccontingency@gmail.com>
+Date: Wed Apr 29 00:06:42 2020
+Subject: [PATCH] Fix appdata for GNOME Mines
+
+Just using this until the appdata is updated upstream.
+---
+ data/org.gnome.Mines.appdata.xml.in | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/data/org.gnome.Mines.appdata.xml.in b/data/org.gnome.Mines.appdata.xml.in
+index a675023..91ffef6 100644
+--- a/data/org.gnome.Mines.appdata.xml.in
++++ b/data/org.gnome.Mines.appdata.xml.in
+@@ -34,6 +34,10 @@
+   <launchable type="desktop-id">org.gnome.Mines.desktop</launchable>
+   <project_group>GNOME</project_group>
+   <releases>
++    <release version="3.36.0" date="2020-03-07" />
++    <release version="3.34.0" date="2019-09-09" />
++    <release version="3.32.2" date="2019-05-06" />
++    <release version="3.32.0" date="2019-03-11" />
+     <release version="3.31.90" date="2019-02-04" type="development" />
+     <release version="3.31.4.1" date="2019-01-08" />
+     <release version="3.31.4" date="2019-01-08" />
+
