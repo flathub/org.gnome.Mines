@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Mines",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-mines",
     "finish-args": [
@@ -25,8 +25,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/libgnome-games-support.git",
-                    "tag": "1.6.1",
-                    "commit": "71775b65e05feb308fd1ede5d190a9ef3a59ef9a"
+                    "branch": "games-1-8"
                 }
             ]
         },
