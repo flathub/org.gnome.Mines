@@ -12,7 +12,7 @@ diff --git a/data/org.gnome.Mines.appdata.xml.in b/data/org.gnome.Mines.appdata.
 index a675023..91ffef6 100644
 --- a/data/org.gnome.Mines.appdata.xml.in
 +++ b/data/org.gnome.Mines.appdata.xml.in
-@@ -34,6 +34,10 @@
+@@ -34,6 +34,13 @@
    <launchable type="desktop-id">org.gnome.Mines.desktop</launchable>
    <project_group>GNOME</project_group>
    <releases>
@@ -26,4 +26,3 @@ index a675023..91ffef6 100644
      <release version="3.31.90" date="2019-02-04" type="development" />
      <release version="3.31.4.1" date="2019-01-08" />
      <release version="3.31.4" date="2019-01-08" />
-
