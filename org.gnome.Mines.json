@@ -36,8 +36,8 @@
                 {
                 "type": "git",
                 "url": "https://gitlab.gnome.org/GNOME/gnome-mines.git",
-                "tag": "3.36.0",
-                "commit": "a2fcc0b0e14e57c2cea41acd7fe7ee3f2a39611b"
+                "tag": "40.1",
+                "commit": "c7a2abc8a62a2d313959db76df3a811209409dc9"
                 },
                 {
                     "type": "patch",
