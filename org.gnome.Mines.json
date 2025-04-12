@@ -1,14 +1,14 @@
 {
     "app-id": "org.gnome.Mines",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-mines",
     "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--metadata=X-DConf=migrate-path=/org/gnome/Mines/"
+        "--device=dri"
     ],
     "cleanup": [
         "/include",
@@ -23,9 +23,13 @@
             "buildsystem": "meson",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/libgnome-games-support.git",
-                    "tag": "1.8.2"
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/libgnome-games-support/2.0/libgnome-games-support-2.0.1.tar.xz",
+                    "sha256": "0186f25c4892c86c7eac43a307fc19db696df4f19aca7f54e83c221df9d9790a",
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "libgnome-games-support"
+                    }
                 }
             ]
         },
@@ -34,14 +38,13 @@
             "buildsystem": "meson",
             "sources": [
                 {
-                "type": "git",
-                "url": "https://gitlab.gnome.org/GNOME/gnome-mines.git",
-                "tag": "40.1",
-                "commit": "c7a2abc8a62a2d313959db76df3a811209409dc9"
-                },
-                {
-                    "type": "patch",
-                    "path": "fix-appdata.xml.patch"
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/gnome-mines/48/gnome-mines-48.0.tar.xz",
+                    "sha256": "ec081a1532a64b12920f1757d55291f789cd1c4701c1993570caa59fbda31680",
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "gnome-mines"
+                    }
                 }
             ]
         }
