@@ -24,8 +24,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libgnome-games-support/2.0/libgnome-games-support-2.0.1.tar.xz",
-                    "sha256": "0186f25c4892c86c7eac43a307fc19db696df4f19aca7f54e83c221df9d9790a",
+                    "url": "https://download.gnome.org/sources/libgnome-games-support/2.0/libgnome-games-support-2.0.2.tar.xz",
+                    "sha256": "82bbc74f08f98b833a9b6444b8479e1bd84ded0a07425d057b45f38e8783e5bd",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "libgnome-games-support"
