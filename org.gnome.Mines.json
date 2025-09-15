@@ -39,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-mines/48/gnome-mines-48.1.tar.xz",
-                    "sha256": "ef4b2d2dde3bec614157edde4d9189cc6afe692952a2dd55b2870e2e62ed8104",
+                    "url": "https://download.gnome.org/sources/gnome-mines/49/gnome-mines-49.0.tar.xz",
+                    "sha256": "11e5d3ac6d8a6b2257051162ebf3ec95afef0136c2b0f917d3fb27731872771b",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-mines"
