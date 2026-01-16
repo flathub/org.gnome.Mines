@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Mines",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-mines",
     "finish-args": [
@@ -12,10 +12,11 @@
     ],
     "cleanup": [
         "/include",
-        "/lib/*.la",
         "/lib/pkgconfig",
         "/share/man",
-        "/share/vala"
+        "/share/vala",
+        "*.la",
+        "*.a"
     ],
     "modules": [
         {
